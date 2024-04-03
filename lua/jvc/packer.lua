@@ -77,6 +77,8 @@ return require('packer').startup(function(use)
 
   use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
 
+  use("tpope/vim-eunuch")
+
   -- auto closing
   use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
   use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" }) -- autoclose tags
